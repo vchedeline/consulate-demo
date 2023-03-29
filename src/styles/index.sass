@@ -1,0 +1,102 @@
+.Hero
+  background: url("../images/building.jpg")
+  min-height: 920px
+  background-attachemnet: fixed
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+
+  h1
+    margin: 0
+    color: white
+    font-size: 3em
+    line-height: 1.3
+    opacity: 0
+
+  @media (min-width: 970px)
+
+.HeroGroup
+  position: absolute
+  left: 0
+  top: 50%
+  width: 100%
+  text-align: center
+  color: red
+
+.sub-page-container
+  max-width: 90%
+  margin: 0 auto
+
+.SubHero
+  background: url("../images/haiti-1.jpeg")
+  height: 300px
+  width: 100%
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+  position: relative
+
+  h1
+    margin: 0
+    color: white
+    font-size: 3em
+    line-height: 1.3
+    opacity: 0
+
+.sub-page-content
+  margin: 0 auto
+  max-width: 70%
+  padding: 10px 50px
+  text-align: center
+
+  h1
+    color: #29176F
+    text-decoration: underline #be2633
+    text-underline-offset: 20px
+    padding: 0px 0px 20px
+
+.MainFeature, .SubFeature
+  margin: 0
+  min-width: 60rem
+  background: white
+  padding: 10px 70px 60px
+
+  h1
+    text-align: center
+
+.SubFeature
+  section
+    display: grid
+    grid-template-columns: 1fr 2fr
+    grid-gap: 70px
+    padding: 0 auto
+
+.features
+  display: flex
+  justify-content: space-around
+  padding: 20px 0 40px
+
+.bg-2
+  background-image: url("../images/circle-natura.jpg")
+  height: 500px
+  background-attachemnet: fixed
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+
+.leaflet-container
+  height: 400px
+  width: 100%
+
+.List
+  display: grid
+  margin: 0
+  --w: 280px
+  --n: 2
+  gap: 64px
+  grid-template-columns: repeat(auto-fit, minmax(max(var(--w), 100%/ (var(--n) + 1) + 0.1%), 1fr))
+  margin-bottom: 64px
+  margin-top: 64px
+
+.TextCenter
+  text-align: center
