@@ -11,7 +11,6 @@ module.exports = {
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-sass`,
-    `gatsby-plugin-modal-routing`,
     {
       resolve: 'gatsby-plugin-react-leaflet',
       options: {

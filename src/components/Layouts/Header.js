@@ -28,13 +28,13 @@ class Header extends React.Component {
     return (
       <div className={this.state.hasScrolled ? "Header HeaderScrolled" : "Header"}>
         <div className="HeaderGroup">
-          <div id="hd-logo"><Link to="/">Haitian Consulate of Boston</Link></div>
+          <div id="hd-logo"><Link to="/">Consulat General de la Repiblik D'Ayiti</Link></div>
           <nav>
-            <Link to="/about">Information on Boston</Link>
-            <Link to="/services">Services</Link>
-            <Link to="/events">Events</Link>
-            <Link to="/mission">Mission</Link>
-            <Link to="/help">FAQ</Link>
+            <Link to="/about">Enfòmasyon sou Boston</Link>
+            <Link to="/haiti">Enfòmasyon sou Ayiti</Link>
+            <Link to="/events">Evènman</Link>
+            <Link to="/mission">Deklarasyon Misyon</Link>
+            <Link to="/help">Kesyon</Link>
           </nav>
         </div>
 

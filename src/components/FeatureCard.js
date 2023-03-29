@@ -5,7 +5,7 @@ import "../styles/card.sass"
 export default function FeatureCard({ title, img }) {
   return (
     <div className="card">
-      <StaticImage src="../images/circle-natura.jpg" alt={title} />
+      <StaticImage src={"../images/htflag.png"} alt={title} />
       <h4>{title}</h4>
     </div>
   )

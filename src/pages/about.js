@@ -6,13 +6,13 @@ import Seo from "../components/seo"
 import SubHeader from "../components/Layouts/SubHeader"
 import LeafletMap from "../components/LeafletMap"
 
-const MissionPage = () => (
+const AboutPage = () => (
   <Layout>
     <div className="sub-page-container">
       <SubHeader />
-      <p><Link to="/">Home</Link> {">>"} About Boston</p>
+      <p><Link to="/">Lakay</Link> {">>"} Enfòmasyon sou Boston</p>
       <div className="sub-page-content">
-        <h1>About Boston</h1>
+        <h1>Enfòmasyon sou Boston</h1>
 
         {typeof window !== 'undefined' &&
           <LeafletMap />
@@ -27,4 +27,4 @@ const MissionPage = () => (
 
 export const Head = () => <Seo title="About Boston" />
 
-export default MissionPage
+export default AboutPage

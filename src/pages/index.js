@@ -13,11 +13,11 @@ export default function Index({ data }) {
         <div className="Hero">
         </div>
         <div className="MainFeature">
-          <h1>Main Feature</h1>
+          <h1>Lorem Ipsum </h1>
           <div className="features">
-            <FeatureCard title="Ambassador" img={`../images/circle-natura.jpg`} />
-            <FeatureCard title="Haitian Culture" img="../images/long-trees.jpg" />
-            <FeatureCard title="Services" img="../images/circle-natura.jpg" />
+            <FeatureCard title="Lorem ipsum" img={`../images/circle-natura.jpg`} />
+            <FeatureCard title="Lorem ipsum" img="../images/long-trees.jpg" />
+            <FeatureCard title="Lorem ipsum" img="../images/circle-natura.jpg" />
           </div>
           <section>
             <p>
@@ -31,7 +31,7 @@ export default function Index({ data }) {
         </div>
         <div className="bg-2"></div>
         <div className="SubFeature">
-          <h1>Sub Feature</h1>
+          <h1>Lorem Ipsum</h1>
           <section>
             <div>
               <StaticImage src="../images/htflag.png" alt="flag" />
